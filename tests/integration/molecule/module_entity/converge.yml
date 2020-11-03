@@ -127,6 +127,7 @@
           - result is changed
           - result.object.entity_class == 'some_class'
           - not result.object.subscriptions
+          - "'deprecations' in result"
 
     - name: Create a second entity
       entity:
